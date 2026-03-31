@@ -60,7 +60,7 @@ def build_background(W, H, WL):
         c = lerp_color((0,26,44),(180,160,100),y/35*0.35)
         pygame.draw.line(bg,c,(0,H-35+y),(W,H-35+y))
 
-    # rocks
+    # rock
     for i in range(12):
         rx=int((i*137.7+30)%W); ry=H-8-(i%3)*5
         rw=(6+(i%4)*3)*2; rh=(3+(i%3)*2)*2
